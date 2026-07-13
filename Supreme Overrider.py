@@ -50,10 +50,10 @@ DEFAULT_LOCALE = {
 }
 
 # Desteklenen diller (combobox'ta bu sırayla görünür)
-SUPPORTED_LANGUAGES = ["en", "tr", "ja", "es", "nl", "uk"]
+SUPPORTED_LANGUAGES = ["English", "Türkçe", "日本語", "Español", "Nederlands", "Українська"]
 
 class Translator:
-    def __init__(self, lang="en"):
+    def __init__(self, lang="English"):
         self.lang = lang
         self.data = self.load_lang()
 
@@ -270,7 +270,7 @@ QFrame#Divider {
 class SupremeWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.t = Translator("en")
+        self.t = Translator("English")
         self.current_file = None
         self.setMinimumSize(720, 640)
         self.setStyleSheet(DARK_STYLE)
@@ -357,7 +357,7 @@ class SupremeWindow(QMainWindow):
         self.btn_delete.clicked.connect(self.delete_item)
         self.btn_iso.clicked.connect(self.run_archiver)
 
-        self.change_lang("en")
+        self.change_lang("English")
 
     def update_file_status(self):
         if self.current_file:
