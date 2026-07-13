@@ -22,7 +22,7 @@ def request_admin():
         sys.exit()
 
 DEFAULT_LOCALE = {
-    "title": "Supreme Overrider 1.0.0",
+    "title": "Supreme Overrider 1.0.3",
     "btn_open": "Open File",
     "btn_save": "Save Hex",
     "btn_delete": "Delete",
