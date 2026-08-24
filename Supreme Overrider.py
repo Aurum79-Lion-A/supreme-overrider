@@ -307,7 +307,7 @@ class SupremeWindow(QMainWindow):
         self.title_label.setObjectName("TitleLabel")
         title_row.addWidget(self.title_label)
 
-        subtitle_label = QLabel("Glory to Ukraine - Free Palestine")
+        subtitle_label = QLabel("Version 1.2.0")
         subtitle_label.setObjectName("SubtitleLabel")
         title_row.addWidget(subtitle_label)
 
