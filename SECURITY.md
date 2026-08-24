@@ -7,10 +7,10 @@ These versions are currently supported with security, GUI and major updates.
 
 | Version | Supported          |
 | ------- | ------------------ |
+| 1.2.0   | :white_check_mark: |
 | 1.0.3   | :white_check_mark: |
-| 1.0.2   | :white_check_mark: |
-| 1.0.0   | :white_check_mark: |
-| <1.0.0  | :x:                |
+| 1.0.2   | :x:                |
+| <1.0.2  | :x:                |
 
 ## Reporting a Vulnerability
 
@@ -48,4 +48,4 @@ We appreciate your responsible disclosure and thank you for helping us keep this
 
 Thanks, Lion-A Softwares
 
-Mr. Cobalt / Manager
+Mr. Cobalt
