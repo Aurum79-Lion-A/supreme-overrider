@@ -9,8 +9,6 @@ Turkish - Türkçe  /
 Spanish - Español  /  
 Dutch - Nederlands
 
-🇺🇦 Glory to Ukraine 🇺🇦
- 🇵🇸 Free Palestine 🇵🇸
 
 Version 1.2.0 - 
 What have changed?:
